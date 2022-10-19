@@ -1,0 +1,9 @@
+def palindrome(x):
+    x_list = [int(d) for d in str(x)]
+    return x_list == list(reversed(x_list))
+    
+
+print (palindrome(777))
+print (palindrome(101010))
+print (palindrome(1234321))
+print (palindrome(394027))
