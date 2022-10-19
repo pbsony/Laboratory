@@ -1,0 +1,11 @@
+def div(x,d):
+    return [num for num in x if num % d == 0 ]
+    
+    
+x_list=[3,88,276,108,762,225,1000]    
+print ('Делятся на 2: ')
+print (div(x_list, 2))
+print ('Делятся на 3: ')
+print (div(x_list, 3))
+print ('Делятся на 5: ')
+print (div(x_list, 5))
