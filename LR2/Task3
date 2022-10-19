@@ -1,0 +1,9 @@
+def reverse(x):
+    x_str = [d for d in str(x)]
+    x_str.reverse()
+    if x<0:
+        x_str.insert(0, x_str.pop())
+    return int (''.join(x_str))
+    
+print(reverse(847))
+print(reverse(-178))
